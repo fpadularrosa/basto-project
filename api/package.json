@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L",
+    "test": "mocha -w ./tests/**/*.spec.js"
+  },
+  "author": "franco padularrosa",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@hapi/joi": "^17.1.1",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "supertest-session": "^4.1.0"
+  }
+}
