@@ -2,3 +2,5 @@ node_modules/
 jspm_packages/
 package-lock.json
 .env
+node_modules/.cache/default-development/16.pack
+node_modules/.cache/default-development/17.pack
